@@ -10,7 +10,7 @@ header{
 
 .bg-green{
     background-color: #1ABC9C;
-    height: 300px;
+    height: 400px;
 }
 
 .bg-red{
@@ -26,4 +26,14 @@ header{
 .bg-orange{
     background-color: orange;
     height: 100px;
+}
+
+.bg-violet{
+    background-color: violet;
+    height: 70px;
+}
+
+.bg-black{
+    background-color: black;
+    height: 30px;
 }
