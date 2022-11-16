@@ -8,6 +8,11 @@ header{
     background-color: #2C3E50;
 }
 
+.bg-green{
+    background-color: #1ABC9C;
+    height: 300px;
+}
+
 .bg-red{
     background-color: red;
     height: 50px;
@@ -18,7 +23,7 @@ header{
     height: 50px;
 }
 
-.bg-green{
-    background-color: #1ABC9C;
-    height: 300px;
+.bg-orange{
+    background-color: orange;
+    height: 100px;
 }
