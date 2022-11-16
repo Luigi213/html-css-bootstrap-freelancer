@@ -3,3 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    background-color: #2C3E50;
+}
+
+.bg-red{
+    background-color: red;
+    height: 50px;
+}
+
+.bg-blue{
+    background-color: blue;
+    height: 50px;
+}
+
+.bg-green{
+    background-color: #1ABC9C;
+    height: 300px;
+}
