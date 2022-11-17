@@ -10,6 +10,14 @@ ul{
     list-style-type: none;
 }
 
+.border-none{
+    border: none;
+}
+
+.padding-0{
+    padding: 0;
+}
+
 /* header */
 
 header{ 
@@ -31,12 +39,6 @@ header{
 .font-size-10{
     font-size: 10px;
 }
-
-.padding-0{
-    padding: 0;
-}
-
-
 
 /* main */
 
@@ -83,9 +85,23 @@ header{
         border-radius: 10px;
     }
 
-    /* third section */
+    /* fourth section */
 
-    
+    .info{
+        margin-bottom: 1px;
+    }
+
+    #nome, #email, #numero, #messaggio{
+        padding: 0.7rem 0 1rem 0;
+        border-top: transparent;
+        border-left: transparent;
+        border-right: transparent ;
+        border-radius: 0;
+    }
+
+    .padding-btn{
+        padding: 8px 14px;
+    }
 
 /* end main */
 
