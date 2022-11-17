@@ -18,6 +18,11 @@ ul{
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+    color: #1ABC9C;
+}
+
 /* header */
 
 header{ 
@@ -144,18 +149,33 @@ header{
     background-color: lightgreen;
 }
 
-.bottom-bar{
-    background-color: #2C3E50;
-    padding: 20px 0;
-}
 
 /* footer */
 
 footer{
     background-color: #3A546D;
-    height: 100px;
 }
 
-/* media */
+.bottom-bar{
+    background-color: #2C3E50;
+    padding: 20px 0;
+}
 
-@media screen ()
+.main-info-1 h6{
+    margin-bottom: 20px;
+}
+
+.icon{
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: 13px 15px;
+    margin: 0 4px;
+}
+
+.icon i{
+    width: 20px;
+}
+
+.copyright{
+    font-size: 10px;
+}
