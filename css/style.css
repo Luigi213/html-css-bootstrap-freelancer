@@ -4,9 +4,12 @@
     box-sizing: border-box;
 }
 
-header,footer{
+header{ 
     background-color: #2C3E50;
     height: 50px;
+    width: 100%;
+    position: fixed;
+    top 0; 
 }
 
 .bg-green{
@@ -43,7 +46,12 @@ header,footer{
     background-color: lightgreen;
 }
 
-.bg-grey{
+.bottom-bar{
+    background-color: #2C3E50;
+    padding: 20px 0;
+}
+
+footer{
     background-color: #3A546D;
-    height: 200px;
+    height: 100px;
 }
