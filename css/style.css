@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+/* utily */
+
+ul{
+    list-style-type: none;
+}
+
 /* header */
 
 header{ 
@@ -26,9 +32,45 @@ header{
     font-size: 10px;
 }
 
+.padding-0{
+    padding: 0;
+}
+
 
 
 /* main */
+
+    /* first section */
+
+    .image-jumbo{
+        width: 100%;
+        height: 200px;
+    }
+
+    .image-jumbo img{
+        height: 100%;
+        width: 100%;
+    }
+
+    .line{
+        width: 15%;
+        height: 3px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .star{
+        width: 10%;
+        height: 23px;
+    }
+
+    .creator{
+        width: 100%;
+    }
+
+    /* second section */
+
+/* end main */
 
 /* background-color */
 
@@ -38,7 +80,6 @@ header{
 
 .bg-green{
     background-color: #1ABC9C;
-    height: 400px;
 }
 
 .bg-red{
@@ -81,3 +122,7 @@ footer{
     background-color: #3A546D;
     height: 100px;
 }
+
+/* media */
+
+@media screen ()
