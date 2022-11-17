@@ -53,7 +53,7 @@ header{
     }
 
     .line{
-        width: 15%;
+        width: 17%;
         height: 3px;
         background-color: white;
         border-radius: 10px;
@@ -69,6 +69,19 @@ header{
     }
 
     /* second section */
+
+    .color-blackblue{
+        color: #2C3E50;
+    }
+
+    .bg-blackblue{
+        background-color: #2C3E50;
+    }
+
+    .bg-photo img{
+        width: 100%;
+        border-radius: 10px;
+    }
 
 /* end main */
 
